@@ -1,0 +1,457 @@
+html {
+    height: 100%;
+}
+
+
+p {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+
+}
+
+h1 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+h2{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+   
+}
+.topNavigation, .dropButton {
+overflow: hidden;
+margin-top: 0px auto;
+padding: 0px;
+background: #02C8A7;
+}
+
+.topNavigation a, .dropButton {
+    padding: 20px;
+    font-style: normal;
+    color:white;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    text-decoration: none;
+    border: none;
+    
+}
+
+.topNavigation a:hover, .dropdown:hover .dropButton  {
+    background-color: #FF8736;
+}
+
+.topNavigation a.left, .dropButton {
+    float:left;
+    display: block;
+}
+.searchBox {
+    float: right;
+    display: block;
+}
+.searchBox input {
+    width: 200px;
+     margin: 0 auto;
+     padding: 6px;
+     border:1px solid #ccc;
+     margin: 0 auto;
+     margin-top:15px;
+     font-size: 17px;
+}
+.searchBox button {
+    margin-right:10px;
+}
+.topNavigation a.right {
+    float: right;
+    display: block;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top: 75px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-style: normal;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+     background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mainContentBlock {
+    background-color: white;
+    margin: auto;
+    margin-top:100px;
+    width: 80%;
+    padding: 10px;
+}
+
+.mainContentBlock p {
+    text-align: left;
+}
+
+.destinationInfo h1, a {
+    color: #17317f;
+    text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.destinationInfo p {
+    max-width: 50%;
+    height: auto;
+}
+.destinationInfo img {
+    max-width: 50%;
+    height: auto;
+}
+.destinationMainContentBlock {
+    background-color: white;
+    margin: auto;
+    margin-top:100px;
+    width: 80%;
+    padding: 10px;
+}
+
+.destinationMainContentBlock p {
+    text-align: left;
+    max-width: 50%;
+}
+
+.destinationMainContentBlock .wide p {
+    margin-left: 50px;
+    text-align: left;
+    max-width: 80%;
+}
+.destinationMainContentBlock .wide a {
+    text-align: left;
+    max-width: 80%;
+}
+.destinationMainContentBlock .wide img{
+    max-width: 80%;
+    height: auto;
+    text-align: centre;
+}
+
+.destinationMainContentBlock img {
+    max-width: 50%;
+    height: auto;
+}
+.hotelsMainContentBlock {
+    background-color: white;
+    margin: auto;
+    margin-top:100px;
+    width: 80%;
+    padding: 10px;
+}
+
+.hotelsMainContentBlock p {
+    text-align: left;
+}
+
+.hotelsMainContentBlock img {
+    max-width: 50%;
+    height: auto;
+}
+.rightFloat {
+    float:right;
+    display:block;
+    max-width: 20%;
+}
+.saveButton {
+    padding-bottom: 20px;
+}
+.saveButton button {
+    background-color:#FFC75E;
+    color: white;
+    border:none;    
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    margin-top:15px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.reviews {
+    text-align: center;   
+    border: 5px solid aqua;
+    font-size: 15px;
+    
+}
+
+.reviews h1 {
+    margin: 0;
+    color: black;
+    background-color: aqua;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+
+}
+.reviews p {
+    max-width: 100%;
+    border-bottom: solid 2px grey;
+}
+.reviews input {
+    width: 150px;
+     padding: 6px;
+     border:1px solid #ccc;
+     margin-top:15px;
+     font-size: 17px;
+}
+
+.reviews button {
+    background-color:rgb(103, 182, 0);
+    color: white;
+    border:none;    
+    cursor: pointer;
+    width: 80px;    
+    padding: 1px;
+    border:1px solid #ccc;
+    margin-top:15px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+     
+}
+.subNavigationBar {
+    text-align: center;
+}
+
+.subNavigationBar button {
+    border:none;    
+    cursor: pointer;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding: 6px;
+    border:1px solid #ccc;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+.hotels {
+    width: 100%;
+    height:auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+.hotels .h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+  .leftHotelsBlock {
+    width: 40%;
+    height: 100%;    
+    float: left;
+    padding: 20px 0;
+}
+.leftHotelsBlock .p {
+    text-align: center;
+}
+
+.rightHotelsBlock {
+    width: 40%;
+    float: right;
+    padding: 20px 0;
+    height: 100%;
+}
+
+.hotelBoxRight {
+    margin-right: 50px;
+    box-sizing: content-box;  
+    width: 80%;
+    float:right;
+    height: auto;
+    padding: 30px;  
+    border: 2px solid gray;
+}
+.hotelBoxLeft {
+    margin-left:50px;
+    box-sizing: content-box;  
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 30px;  
+    border: 2px solid gray;
+}
+  .flights {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+.loginForm input {
+    width: 300px;
+     display: block;
+     margin: 0 auto;
+     padding: 6px;
+     border:1px solid #ccc;
+     margin: 0 auto;
+     margin-top:15px;
+     font-size: 17px;
+ }
+
+ .loginForm button {
+    background-color:#FFC75E;
+    color: white;
+    border:none;    
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    margin-top:15px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+ }
+
+ .loginFail {
+     display:block;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ .registrationPrompt {
+    text-align: center;
+    font-size: 17px;
+ }
+
+ .registrationPrompt a {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    margin-top:15px;
+    font-size: 17px;
+    background-color:#FF903F;
+    color: white;
+    border:none;    
+    cursor: pointer;
+    text-decoration:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+
+}
+
+.registrationForm input {
+    width: 300px;
+     display: block;
+     margin: 0 auto;
+     padding: 6px;
+     border:1px solid #ccc;
+     margin: 0 auto;
+     margin-top:15px;
+     font-size: 17px;
+}
+.registrationForm button {
+    background-color:#FFC75E;
+    color: white;
+    border:none;    
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    margin-top:15px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    
+ }
+ .accountSettings p {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+ }
+.accountSettings button {
+    background-color:rgb(103, 182, 0);
+    color: white;
+    border:none;    
+    cursor: pointer;
+    width: 150px;
+    display: block;    
+    padding: 6px;
+    border:1px solid #ccc;
+    margin-top:15px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    
+}
+ .accountSettings input {
+    width: 300px;
+    display: block;
+    padding: 6px;
+    border:1px solid #ccc;
+    margin-top:15px;
+    font-size: 17px;
+ }
+
+.searchResults {
+    background-color: white;
+    margin: auto;
+    margin-top:100px;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.searchResultsContainer {
+    margin:auto;
+    max-width: 80%;
+}
+
+.searchResultsContainer a {
+    color: blue;
+    font-size:24px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.searchResultsContainer p {    
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding-bottom: 10px;
+}
+.searchResultsContainer img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+ 
+body {
+    height:100%;
+    background-attachment: fixed;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,255,239,1) 30%, rgba(118,232,255,1) 62%, rgba(13,214,255,1) 77%, rgba(0,195,235,1) 100%);
+    background-repeat: no-repeat;
+
+}

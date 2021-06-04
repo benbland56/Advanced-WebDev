@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Holiday Destinations Website </title>
+        <link rel = "stylesheet" type = "text/css" href = "static/styles/main.css">
+        
+        <script type = "text/javascript" src = "http://jquery-3.3.1.min.js"> </script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+        
+
+
+    </head>
+
+    <body onload = "printCookie()">
+
+        <div class = "topNavigation">
+                <a class="left" href = "index.html"> Home </a>
+                <a class="left" href = "AllDestinations.html"> Destinations </a>
+                <a class="left" href = "hotels.html?hotelId=1"> Hotels </a>
+                <div class = "searchBox">
+                    <input type = "text" placeholder="Search..." id ="SearchQuery">
+                    <button type = "button" onclick = "saveSearchResults()"> Search </button>
+                </div>
+
+                
+                <a class = "right" href = "loginPage.html"> Login</a>
+                
+                   
+        </div>
+
+        <div class = "mainContentBlock">
+            <div class = "destinationInfo">
+                <h2>Popular Destinations</h2>
+                <img src = "Backgrounds/Greece.jpg">
+                <h1><a href = "Destination.html?destId=1"> Greece</a></h1>
+            
+                
+                <p> Greece's coastline features wide beaches as far as the eye can see
+                </p>
+
+                
+
+                <br>
+                <br>
+
+                <img src = "Backgrounds/lanzarote-canary-islands-wallpaper.jpg">
+                <h1><a href = "Destination.html?destId=2"> Canaries</a></h1>
+
+                <p>This destination is knowing for being scorching hot in the summer
+                </p>
+                
+                <br>
+                <br>
+
+                <img src = "Backgrounds/yosemite-national-park-4k-yosemite-valley-american-landmarks-clouds.jpg">
+                <h1><a href = "Destination.html?destId=3"> America </a></h1>
+
+                <p>American culture is like no other, with an emphasis on partriotism  
+                </p>
+                
+                </div>
+        </div>
+
+    </body>
+    </html>
+    

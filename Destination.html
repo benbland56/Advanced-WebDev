@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Holiday Destinations Website </title>
+        <link rel = "stylesheet" type = "text/css" href = "static/styles/main.css">
+        
+        <script type = "text/javascript" src = "http://jquery-3.3.1.min.js"> </script> 
+        <script type="text/javascript" src="js/scripts.js"></script>
+         
+    
+    </head>
+
+    <body onload="getDestination(); getTopHotels(); decodeCookie(); checkIfFavourite(); getReviews()">
+
+        <div class = "topNavigation">
+            <a class="left" href = "index.html"> Home </a>
+            <a class="left" href = "AllDestinations.html"> Destinations </a>
+            <a class="left" href = "hotels.html?hotelId=1"> Hotels </a>
+            <div class = "searchBox">
+                <input type = "text" placeholder="Search..." id ="SearchQuery">
+                <button type = "button" onclick = "saveSearchResults()"> Search </button>
+            </div>
+
+            
+            <a class = "right" href = "loginPage.html"> Login</a>
+            
+               
+    </div>
+
+        <div class = "destinationMainContentBlock">
+            <h1 id = "name">  </h1>
+            <div class = "rightFloat">
+                <div class = "saveButton" id = "saveButton">
+                    <button type = "button" onclick = "saveAsFavourite()" id = "Save"></button>
+                </div>                
+                <div class = "reviews" id = "reviews">
+                    <h1> Reviews </h1>
+                    <input type = "text" placeholder="Submit Review" id ="SubmittedReviewText">
+                    <button type = "button" onclick = "saveReview()"> Submit </button>        
+                </div>
+            </div>
+            <img id = "posterImg">
+            <h3 id = "feature1">  </h3>
+            <p id = "feature1Description">  </p>
+            <h3 id = "feature2">  </h3>
+            <p id = "feature2Description">  </p>
+            <div class = "wide">
+            <div class = "subNavigationBar"> 
+                <button onclick = "showHotels()"> Top Hotels </button>
+                <button onclick = "showFlights()"> Upcoming Flights </button>
+                <div class = "hotels" id = "hotels" style="display: block;">
+                    <div class = "leftHotelsBlock"> 
+                        <div class = "hotelBoxLeft">
+                            <img id = hotel1Img>
+                            <br>
+                            <a id = "hotel1Name"></a>
+                            <p id = "hotel1Description"></p>
+                        </div>
+                        <div class = "hotelBoxLeft">                            
+                            <img id =  hotel2Img>
+                            <br>
+                            <a id = "hotel2Name"></a>
+                            <p id = "hotel2Description"></p>
+                        </div>                        
+                    </div>
+                    <div class = "rightHotelsBlock">
+                        <div class = "hotelBoxRight">
+                            <img id = hotel3Img>
+                            <br>
+                            <a id = "hotel3Name"></a>
+                            <p id = "hotel3Description"></p> 
+                        </div>  
+                        <div class = "hotelBoxRight">
+                            <img id = hotel4Img>
+                            <br>
+                            <a id = "hotel4Name"></a>
+                            <p id = "hotel4Description"></p>
+                        </div>               
+                    </div>                   
+                </div>
+                
+                <div class = "flights" id = "flights" style="display: none;">
+                    <p> Flights </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+
+</html>
